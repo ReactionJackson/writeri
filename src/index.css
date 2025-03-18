@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra+Display&family=Astloch:wght@400;700&family=Seaweed+Script&display=swap");
+
+:root {
+  font-family: Astloch, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f065f;
+  position: fixed;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: default;
+  user-select: none;
+}
